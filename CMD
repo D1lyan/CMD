@@ -1,0 +1,62 @@
+1.      sudo apt update: Vernieuwt de lijst met beschikbare softwarepakketten.
+2.      sudo apt install net-tools: Installeert tools voor netwerkbeheer, zoals ifconfig en netstat.
+3.      ifconfig: Toont informatie over netwerkinterfaces, inclusief IP-adressen.
+4.      netstat -na: Geeft netwerkstatistieken weer, inclusief open poorten en actieve verbindingen.
+5.      sudo apt reinstall net-tools: Probeert het net-tools pakket opnieuw te installeren.
+6.      sudo apt purge net-tools: Verwijdert het net-tools pakket en alle configuratiebestanden.
+7.      sudo apt upgrade: Werkt alle geïnstalleerde pakketten bij naar de nieuwste versies.
+8.      sudo apt clean: Verwijdert gedownloade pakketbestanden om schijfruimte vrij te maken.
+9.      sudo apt autoremove net-tools: Verwijdert onnodige afhankelijkheden die met net-tools zijn geïnstalleerd.
+10.     sudo apt-cache show ^net-tools$: Toont informatie over het net-tools pakket.
+11.     sudo dpkg -i steam_latest.deb: Installeert het Steam-pakket met dpkg.
+12.     sudo dpkg -l "net*": Lijst geïnstalleerde pakketten op met namen die beginnen met "net."
+13.     sudo dpkg -s screen: Toont informatie over het geïnstalleerde "screen" pakket.
+14.     pwd: Geeft het huidige werkdirectory-pad weer.
+15.     ls: Lijst bestanden en mappen op in het huidige werkdirectory.
+16.     ls -a: Lijst alle bestanden en mappen op, inclusief verborgen.
+17.     ls -l: Geeft gedetailleerde informatie weer over bestanden en mappen.
+18.     ls -h: Lijst bestanden en mappen op met menselijk leesbare bestandsgroottes.
+19.     ls -al: Lijst alles gedetailleerd op, inclusief verborgen.
+20.     ls -alh: Lijst alles gedetailleerd op met menselijk leesbare bestandsgroottes, inclusief verborgen.
+21.     cd ~: Ga naar het gebruikershome-directory.
+22.     mkdir Projecten: Maakt een nieuwe map met de naam "Projecten."
+23.     cd Projecten: Ga naar de "Projecten" map.
+24.     mkdir Onnodig: Maakt een nieuwe map met de naam "Onnodig."
+25.     rmdir Onnodig: Verwijdert de "Onnodig" map (alleen als deze leeg is).
+26.     cd /: Ga naar de root-directory.
+27.     cd /home: Ga naar de /home-directory.
+28.     cd ~: Ga terug naar het gebruikershome-directory.
+29.     cd ..: Ga één niveau omhoog in de directorystructuur.
+30.     cd -: Ga terug naar de vorige directory.
+31.     pwd: Geeft het huidige werkdirectory-pad weer.
+32.     ls -al: Lijst alles gedetailleerd op, inclusief verborgen.
+33.     cd ~: Ga naar het gebruikershome-directory.
+34.     mkdir Scripts: Maakt een nieuwe map met de naam "Scripts."
+35.     touch bash.sh: Maakt een leeg bestand met de naam "bash.sh."
+36.     nano bash.sh: Opent het "bash.sh" bestand om te bewerken met de nano teksteditor.
+37.     cp bash.sh bash.sh.backup: Kopieert "bash.sh" naar "bash.sh.backup."
+38.     mv bash.sh.backup bash.sh.backup.yesterday: Hernoemt "bash.sh.backup" naar "bash.sh.backup.yesterday."
+39.     rm -f bash.sh.backup.yesterday: Verwijdert het "bash.sh.backup.yesterday" bestand zonder bevestiging.
+40.     chmod +x bash.sh: Voegt uitvoeringsrechten toe aan het "bash.sh" bestand.
+41.     touch README: Maakt een leeg bestand met de naam "README."
+42.     echo "Mijn readme document" > README: Schrijft de opgegeven tekst naar het "README" bestand.
+43.     cat README: Toont de inhoud van het "README" bestand.
+44.     echo "Regel 2" >> README: Voegt "Regel 2" toe aan het "README" bestand.
+45.     nano README: Opent het "README" bestand om te bewerken met de nano teksteditor.
+46.     tail -f /var/log/syslog: Toont de laatste regels van het syslog-bestand en blijft nieuwe regels weergeven.
+47.     grep "readme" README: Zoekt naar de string "readme" in het "README" bestand.
+48.     echo "Eerste Regel" > README: Overschrijft de inhoud van het "README" bestand met "Eerste Regel."
+49.     less /var/log/syslog: Laat je door het syslog-bestand scrollen.
+50.     more /var/log/syslog: Toont de inhoud van het syslog-bestand één scherm per keer.
+51.     sudo useradd -m -s /bin/bash johndoe: Maakt een nieuwe gebruiker "johndoe" met een home-directory en stelt de standaardshell in op Bash.
+52.     sudo userdel -r johndoe: Verwijdert de gebruiker "johndoe" inclusief de home-directory.
+53.     sudo groupadd developers: Maakt een nieuwe groep met de naam "developers."
+54.     tail /etc/group: Toont de inhoud van het /etc/group bestand.
+55.     sudo usermod -aG developers johndoe: Voegt de gebruiker "johndoe" toe aan de "developers" groep.
+56.     sudo groupdel -f developers: Verwijdert de "developers" groep, zelfs als deze nog gebruikers bevat.
+57.     cat /etc/passwd: Toont de inhoud van het /etc/passwd bestand.
+58.     date: Toont de huidige datum en tijd.
+59.     timedatectl status: Toont de huidige datum- en tijdinstellingen van het systeem.
+60.     sudo timedatectl set-timezone Europe/Amsterdam: Stelt de tijdzone van het systeem in op Europe/Amsterdam.
+61.     timedatectl: Toont informatie over de systeemklok en zijn instellingen.
+62.     sudo apt update: Vernieuwt de lijst met beschikbare softwarepakketten.
